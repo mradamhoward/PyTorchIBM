@@ -160,3 +160,4 @@ my_transformed_dataset = toy_set(transform = my_compose)
 for i in range(3):
     x_, y_ = my_transformed_dataset[i]
     print('Index: ', i, 'Transformed x_:', x_, 'Transformed y_:', y_)
+
